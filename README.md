@@ -1,32 +1,26 @@
-# Week 2 – Data Collection, Cleaning and Preprocessing
+# Week 3 – Advanced Data Analysis and Visualization in Logistics
 
-This project demonstrates a logistics data-preprocessing pipeline using Python and Pandas.
+This project performs exploratory data analysis and visualization on a synthetic logistics dataset.
 
-## Objectives
-- Simulate collection of logistics records.
-- Identify missing values, duplicates and outliers.
-- Clean and preprocess the dataset.
-- Normalize numerical variables.
-- Produce a cleaned dataset suitable for later analysis and modelling.
+## Contents
+- `data/logistics_week3_dataset.csv` – 60 sample logistics records
+- `src/logistics_eda.py` – Python EDA and visualization script
+- `figures/` – generated visualizations
+- `reports/Week_3_Advanced_Data_Analysis_and_Visualization_Report.docx` – detailed report
 
-## Files
-- `data/raw_logistics_data.csv` – sample dataset containing deliberate data-quality issues.
-- `src/data_cleaning.py` – Python cleaning and preprocessing script.
-- `data/cleaned_logistics_data.csv` – generated after running the script.
-- `reports/Week_2_Logistics_Data_Cleaning_Report.docx` – complete report.
-
-## Main techniques
-1. Duplicate removal
-2. Datetime conversion
-3. Median imputation for missing numerical values
-4. IQR-based outlier detection and capping
-5. Min-Max normalization
-6. Final quality validation
+## Analysis
+- Descriptive statistics and central tendency
+- Shipping-time distribution
+- City-level shipping performance
+- Distance vs transportation cost
+- Correlation analysis
+- Carrier shipping-time comparison
+- Operational insights and recommendations
 
 ## Run
 ```bash
-pip install pandas numpy scikit-learn
-python src/data_cleaning.py
+pip install pandas numpy matplotlib seaborn
+python src/logistics_eda.py
 ```
 
-The dataset is synthetic and created for educational demonstration.
+The dataset is synthetic and intended for educational demonstration.

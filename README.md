@@ -1,35 +1,32 @@
-# Logistics Data Analysis – Week 1
+# Week 2 – Data Collection, Cleaning and Preprocessing
 
-## Strategic Planning and Data Exploration in Logistics
+This project demonstrates a logistics data-preprocessing pipeline using Python and Pandas.
 
-This repository contains the Week 1 technical work for a logistics data-analysis project.
+## Objectives
+- Simulate collection of logistics records.
+- Identify missing values, duplicates and outliers.
+- Clean and preprocess the dataset.
+- Normalize numerical variables.
+- Produce a cleaned dataset suitable for later analysis and modelling.
 
-### Objective
-Use Python and data-science methods to measure logistics KPIs, explore delivery performance, identify late-delivery patterns, and support route, inventory, and resource decisions.
+## Files
+- `data/raw_logistics_data.csv` – sample dataset containing deliberate data-quality issues.
+- `src/data_cleaning.py` – Python cleaning and preprocessing script.
+- `data/cleaned_logistics_data.csv` – generated after running the script.
+- `reports/Week_2_Logistics_Data_Cleaning_Report.docx` – complete report.
 
-### Repository structure
-- `src/logistics_analysis.py` – Python analysis script
-- `data/sample_logistics_data.csv` – small synthetic demonstration dataset
-- `reports/Week_1_Logistics_Strategic_Planning_Report.docx` – complete Week 1 report
-- `requirements.txt` – Python libraries
+## Main techniques
+1. Duplicate removal
+2. Datetime conversion
+3. Median imputation for missing numerical values
+4. IQR-based outlier detection and capping
+5. Min-Max normalization
+6. Final quality validation
 
-### Technologies
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
-
-### KPIs
-On-Time Delivery Rate, Late Delivery Rate, Average Delivery Delay, Cost per Delivery, Vehicle Utilization, and Stock-out Rate.
-
-### How to run
+## Run
 ```bash
-pip install -r requirements.txt
-python src/logistics_analysis.py
+pip install pandas numpy scikit-learn
+python src/data_cleaning.py
 ```
 
-The included CSV is synthetic and is provided only for demonstration.
-
-### Workflow
-Data Collection → Cleaning → KPI Calculation → EDA → Feature Engineering → Predictive Modelling → Optimization → Evaluation → Decision Support
-
-### References
-- World Bank Logistics Performance Index: https://lpi.worldbank.org/
-- World Bank LPI 2023: https://www.worldbank.org/en/news/press-release/2023/04/21/world-bank-releases-logistics-performance-index-2023
+The dataset is synthetic and created for educational demonstration.

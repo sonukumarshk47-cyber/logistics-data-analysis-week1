@@ -1,0 +1,17 @@
+order_id,order_date,warehouse_id,city,carrier,quantity,distance_km,shipping_time_hours,inventory_units,vehicle_utilization
+ORD2001,2026-09-01,WH01,Chennai,Carrier_A,2,18.5,2.0,1200,80
+ORD2002,2026-09-01,WH01,Chennai,Carrier_B,1,42.0,4.0,900,65
+ORD2003,2026-09-02,WH02,Bengaluru,Carrier_A,4,12.0,1.0,1500,90
+ORD2004,2026-09-02,WH02,Bengaluru,Carrier_C,3,65.0,6.0,700,55
+ORD2005,2026-09-03,WH01,Chennai,Carrier_A,5,25.0,3.0,1200,82
+ORD2006,2026-09-03,WH03,Hyderabad,Carrier_B,2,50.0,5.0,1100,70
+ORD2007,2026-09-04,WH03,Hyderabad,Carrier_A,1,15.0,2.0,1300,92
+ORD2008,2026-09-04,WH02,Bengaluru,Carrier_C,6,80.0,7.0,650,50
+ORD2009,2026-09-05,WH01,Chennai,Carrier_B,2,35.0,3.0,1000,75
+ORD2010,2026-09-05,WH03,Hyderabad,Carrier_A,3,10.0,1.0,1400,95
+ORD2011,2026-09-06,WH02,Bengaluru,Carrier_B,2,45.0,4.0,850,72
+ORD2012,2026-09-06,WH03,Hyderabad,Carrier_C,4,70.0,8.0,600,48
+ORD2012,2026-09-06,WH03,Hyderabad,Carrier_C,4,70.0,8.0,600,48
+ORD2013,2026-09-07,WH01,Chennai,Carrier_A,3,,3.0,1250,84
+ORD2014,2026-09-07,WH02,Bengaluru,Carrier_B,2,55.0,,950,78
+ORD2015,2026-09-08,WH03,Hyderabad,Carrier_C,2,300.0,10.0,500,45
